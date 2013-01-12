@@ -1,0 +1,6 @@
+%h1= @law.title
+
+- nested_tree @law.toc do |te|
+  = te.title
+
+

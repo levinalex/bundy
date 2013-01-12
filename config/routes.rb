@@ -1,4 +1,7 @@
 Bundy::Application.routes.draw do
+  match ":laws/*path" => "laws#show"
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

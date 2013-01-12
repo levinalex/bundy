@@ -22,6 +22,9 @@ end
 
 gem 'jquery-rails'
 
+gem 'law', :path => "../law"
+gem 'haml'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
